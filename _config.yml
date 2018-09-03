@@ -210,7 +210,7 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  roll20-guide:
     output: true
     permalink: /:collection/:path/
 
@@ -222,9 +222,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Europe/Kiev # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -280,6 +280,10 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  roll20-guide:
+    output: true
 
 # Defaults
 defaults:
