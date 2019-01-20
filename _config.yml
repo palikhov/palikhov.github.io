@@ -293,6 +293,10 @@ collections:
 collections:
   microsoft-office:
     output: true
+collections:
+  dnd:
+    output: true
+
 
 # Defaults
 defaults:
@@ -331,7 +335,7 @@ defaults:
       comments: true
       sidebar:
         nav: "microsoft-office"
-#_mso
+#_dnd
   - scope:
       path: ""
       type: dnd
